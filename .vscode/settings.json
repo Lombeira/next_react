@@ -1,0 +1,42 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+  ],
+  "tabnine.experimentalAutoImports": true,
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1,
+  "prettier.singleQuote": true,
+  "editor.fontFamily": "Consolas Ligaturized V2",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.quickSuggestionsDelay": 10,
+  "editor.quickSuggestions": true,
+  "powermode.enabled": true,
+  "powermode.shakeIntensity": 0,
+  "powermode.comboThreshold": 15,
+  "powermode.gifMode": "restart",
+  "powermode.explosionSize": 5,
+  "editor.codeActionsOnSave": null,
+  "prettier.jsxSingleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single"
+}
