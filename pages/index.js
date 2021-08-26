@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import PokemonList from './PokemonList';
+import PokemonList from '../components/PokemonList';
 import axios from 'axios';
-import Pagination from './Pagination';
+import Pagination from '../components/Pagination';
 
 function Home() {
   const [pokemon, setPokemon] = useState([]);
