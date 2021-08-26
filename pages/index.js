@@ -3,7 +3,7 @@ import PokemonList from './PokemonList';
 import axios from 'axios';
 import Pagination from './Pagination';
 
-function App() {
+function Home() {
   const [pokemon, setPokemon] = useState([]);
   const [currentPageUrl, setCurrentPageUrl] = useState(
     'https://pokeapi.co/api/v2/pokemon'
@@ -50,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
