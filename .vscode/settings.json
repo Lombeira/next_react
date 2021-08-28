@@ -3,7 +3,6 @@
   "explorer.confirmDelete": false,
   "workbench.colorTheme": "Monokai Pro",
   "workbench.iconTheme": "Monokai Pro Icons",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.renderWhitespace": "all",
   "editor.formatOnSave": true,
   "liveSassCompile.settings.formats": [
@@ -13,17 +12,12 @@
       "savePath": "/dist/css"
     }
   ],
-  "tabnine.experimentalAutoImports": true,
   "editor.tabSize": 2,
-  "files.associations": {
-    "*.js": "javascript"
-  },
   "emmet.excludeLanguages": ["markdown"],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "files.autoSave": "afterDelay",
-  "window.zoomLevel": 1,
   "prettier.singleQuote": true,
   "editor.fontFamily": "Consolas Ligaturized V2",
   "editor.fontSize": 13,
@@ -35,8 +29,101 @@
   "powermode.comboThreshold": 15,
   "powermode.gifMode": "restart",
   "powermode.explosionSize": 5,
-  "editor.codeActionsOnSave": null,
   "prettier.jsxSingleQuote": true,
   "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontSize": 14,
+
+  "editor.lineHeight": 22,
+  "editor.semanticHighlighting.enabled": false,
+
+  "editor.rulers": [80, 120],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+    // "**/node_modules": true
+  },
+
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascript",
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+
+  "typescript.tsserver.log": "verbose",
+  "material-icon-theme.activeIconPack": "nest",
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "window.menuBarVisibility": "toggle",
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt",
+  "editor.suggestSelection": "first",
+  "cSpell.userWords": ["chakra", "middlewares", "prefetch", "rocketseat"],
+  "terminal.integrated.showExitAlert": false,
+
+  "splitHTMLAttributes.closingBracketOnNewLine": true,
+  "window.zoomLevel": 1,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

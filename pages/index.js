@@ -41,6 +41,7 @@ function Home() {
 
   return (
     <>
+      <div>SAMUEL ISSO AQUI É DE OUTRO MUNDO</div>
       <PokemonList pokemon={pokemon} />
       <Pagination
         gotoNextPage={nextPageUrl ? gotoNextPage : null}
